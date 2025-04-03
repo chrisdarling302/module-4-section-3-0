@@ -12,7 +12,7 @@ main();
 
 function showUserPosts(id) {
   localStorage.setItem("id100", id);//first one is the key, 2nd one is the value.
-  window.location.href = `${window.location.origin}/user.html`
+  window.location.href = `${window.location.origin}/user.html`//how to route to a new page in vanilla JS
 }
 
 function userHTML(user) {
